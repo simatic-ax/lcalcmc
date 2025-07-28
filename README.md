@@ -86,7 +86,7 @@ Comprehensive documentation is available in the [docs](./docs) directory:
 
 Errors of LCalcMC functions are signalized at the return value of the different functions. A value WORD#16#8xxx (with x for hexadecimal 0 to F) at the return value signalizes an error.
 
-The error codes are defined in [`LCalcMC_ErrorIDs`](../constants/LCalcMC_ErrorIDs.md).
+The error codes are defined in [`LCalcMC_ErrorIDs`](./docs/constants/LCalcMC_ErrorIDs.md).
 
 There are different kinds of errors:
 
