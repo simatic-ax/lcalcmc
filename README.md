@@ -17,7 +17,7 @@ When moving axes in production machines, the following questions are of particul
 The library LCalcMC for SIMATIC provides easy-to-use calculation functions that help the user to find solutions to the above questions.
 The function results can be used for programming the motion profiles with respect to the dynamics (velocity, acceleration, deceleration, jerk).
 
-The library is a direct conversion of the functionally identical library [LCalcMC](https://support.industry.siemens.com/cs/document/109475569/simatic-calculation-of-motion-profile-details-(lcalcmc)?dti=0&lc=en-WW) for use inside the TIA Portal
+The library is a direct conversion of the functionally identical library [LCalcMC](https://support.industry.siemens.com/cs/ww/en/view/109475569) for use inside the TIA Portal
 
 ## Mode of Operation
 
