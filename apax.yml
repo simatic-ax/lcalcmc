@@ -32,7 +32,7 @@ publicKeys:
 
 # Dependencies
 dependencies:
-  "@ax/system-fastmath": 10.0.24
+  "@ax/system-fastmath": ^10.0.24
 devDependencies:
   '@ax/sdk': ^2504.0.0
 
