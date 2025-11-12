@@ -1,6 +1,6 @@
 # General information
 name: "@simatic-ax/lcalcmc"
-version: 1.0.0
+version: 2.0.0
 author: Siemens AG
 
 # Description will be displayed in the apax extension
@@ -32,9 +32,9 @@ publicKeys:
 
 # Dependencies
 dependencies:
-  "@ax/system-fastmath": 10.0.24
+  "@ax/system-fastmath": ^10.2.7
 devDependencies:
-  '@ax/sdk': ^2504.0.0
+  "@ax/sdk": ^2510.0.0
 
 # Project variables
 variables:
@@ -50,4 +50,4 @@ files:
 
 # Catalog to be intalled
 catalogs:
-  "@ax/simatic-ax": ^2504.0.0
+  "@ax/simatic-ax": ^2510.0.0
