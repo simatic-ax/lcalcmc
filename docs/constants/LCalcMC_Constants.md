@@ -1,14 +1,14 @@
-# LCalcMC_Constants
+# LCalcMC.Constants
 
 ## Description
 
-The `LCalcMC_Constants` type defines constants used for tolerance calculations in the LCalcMC library. These constants provide numerical tolerance values for motion control calculations to handle floating-point precision issues.
+The `LCalcMC.Constants` type defines constants used for tolerance calculations in the LCalcMC library. These constants provide numerical tolerance values for motion control calculations to handle floating-point precision issues.
 
 ## Constants
 
 | Constant | Value | Description |
-|----------|-------|-------------|
-| `LCALCMC_MIN_JERK_TOLERANCE` | 1.0E-05 | Tolerance value for minimum jerk calculation at comparisons in configured unit |
+| -------- | ----- | ----------- |
+| `MIN_JERK_TOLERANCE` | 1.0E-05 | Tolerance value for minimum jerk calculation at comparisons in configured unit |
 
 ## Usage
 

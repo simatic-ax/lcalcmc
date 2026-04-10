@@ -1,7 +1,7 @@
-# LCalcMC_typeMoveVelocityDetailsVelocity
+# typeMoveVelocityDetailsVelocity
 
 | Member | Type | Default Value | Description |
-|--------|------|---------------|-------------|
+| ------ | ---- | ------------- | ----------- |
 | `v0` | `LREAL` | 0.0 | Velocity at t0 (input 'startVelocity') |
 | `v1` | `LREAL` | 0.0 | Velocity at t1 (end of phase where the acceleration/deceleration is increased = first jerk phase) |
 | `v2` | `LREAL` | 0.0 | Velocity at t2 (end of phase where the acceleration/deceleration is constant) |

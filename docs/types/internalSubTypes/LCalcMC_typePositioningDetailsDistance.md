@@ -1,7 +1,7 @@
-# LCalcMC_typePositioningDetailsDistance
+# typePositioningDetailsDistance
 
 | Member | Type | Default Value | Description |
-|--------|------|---------------|-------------|
+| ------ | ---- | ------------- | ----------- |
 | `d0` | `LREAL` | 0.0 | Moved distance at t0 (start distance = 0.0) |
 | `d1` | `LREAL` | 0.0 | Moved distance at t1 (end of phase where the acceleration is increased = first jerk phase) |
 | `d2` | `LREAL` | 0.0 | Moved distance at t2 (end of phase where the acceleration is constant) |

@@ -1,8 +1,8 @@
-# LCalcMC_PositioningAccel
+# PositioningAccel
 
 ## Principle of operation
 
-The function `LCalcMC_PositioningAccel` calculates the acceleration that is needed to move a specified distance in a given time with a positioning command from standstill to standstill. The dynamic values are taken into account (velocity, jerk).
+The function `PositioningAccel` calculates the acceleration that is needed to move a specified distance in a given time with a positioning command from standstill to standstill. The dynamic values are taken into account (velocity, jerk).
 
 **_NOTE:_** The calculated acceleration has also to be used for deceleration in the movement.
 
@@ -11,8 +11,8 @@ The function `LCalcMC_PositioningAccel` calculates the acceleration that is need
 ### Input Parameters
 
 | Parameter | Type | Description |
-|-----------|------|-------------|
-| `_time` | `LREAL` | Time between start and end of motion command |
+| --------- | ---- | ----------- |
+| `motionTime` | `LREAL` | Time between start and end of motion command |
 | `distance` | `LREAL` | Distance between start and end of motion command |
 | `velocity` | `LREAL` | Velocity of motion command |
 | `jerk` | `LREAL` | Jerk of motion command (Value = 0.0: Trapezoid velocity profile) |
@@ -20,13 +20,13 @@ The function `LCalcMC_PositioningAccel` calculates the acceleration that is need
 ### Output Parameters
 
 | Parameter | Type | Description |
-|-----------|------|-------------|
+| --------- | ---- | ----------- |
 | `acceleration` | `LREAL` | Calculated acceleration and deceleration of motion command |
 
 ### Return Value
 
 | Parameter | Type | Description |
-|-----------|------|-------------|
-| `LCalcMC_PositioningAccel` | `WORD` | Status of the function; WORD#16#0000: Calculation finished successfully <br/> WORD#16#8000 - WORD#16#FFFF: Error identification |
+| --------- | ---- | ----------- |
+| `PositioningAccel` | `LCalcMC.Status` | Status of the function; WORD#16#0000: Calculation finished successfully <br/> WORD#16#8000 - WORD#16#FFFF: Error identification |
 
-The error codes are defined in [`LCalcMC_ErrorIDs`](../constants/LCalcMC_ErrorIDs.md).
+The error codes are defined in [`LCalcMC.Status`](../constants/LCalcMC_ErrorIDs.md).
