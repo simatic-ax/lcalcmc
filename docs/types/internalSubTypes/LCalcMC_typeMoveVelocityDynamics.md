@@ -1,7 +1,7 @@
-# LCalcMC_typeMoveVelocityDynamics
+# typeMoveVelocityDynamics
 
 | Member | Type | Default Value | Description |
-|--------|------|---------------|-------------|
+| ------ | ---- | ------------- | ----------- |
 | `startVelo` | `LREAL` | 0.0 | Velocity setpoint at start of motion command |
 | `startAccel` | `LREAL` | 0.0 | Acceleration setpoint at start of motion command |
 | `velo` | `LREAL` | 0.0 | Velocity setpoint at end of motion command |

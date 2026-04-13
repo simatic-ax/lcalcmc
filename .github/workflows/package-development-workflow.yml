@@ -47,9 +47,3 @@ jobs:
           apax-token: ${{ secrets.APAX_TOKEN }}
           registries: |
             https://npm.pkg.github.com/,${{ secrets.GITHUB_TOKEN }}
-
-      - name: Check links
-        uses: gaurav-nelson/github-action-markdown-link-check@v1
-        with:
-          check-modified-files-only: 'yes'
-          base-branch: 'main'

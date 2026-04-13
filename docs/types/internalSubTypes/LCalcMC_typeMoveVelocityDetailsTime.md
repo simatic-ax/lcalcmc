@@ -1,7 +1,7 @@
-# LCalcMC_typeMoveVelocityDetailsTime
+# typeMoveVelocityDetailsTime
 
 | Member | Type | Default Value | Description |
-|--------|------|---------------|-------------|
+| ------ | ---- | ------------- | ----------- |
 | `t0` | `LREAL` | 0.0 | Elapsed time at t0 (start time = 0.0) |
 | `t1` | `LREAL` | 0.0 | Elapsed time at t1 (end of phase where the acceleration/deceleration is increased = first jerk phase) |
 | `t2` | `LREAL` | 0.0 | Elapsed time at t2 (end of phase where the acceleration/deceleration is constant) |
