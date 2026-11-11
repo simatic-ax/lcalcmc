@@ -24,7 +24,7 @@ This example shows a motion profile of a reversing `MC_MoveVelocity` command, wh
 
 | Parameter | Type | Description |
 | --------- | ---- | ----------- |
-| `moveVelocityDetails` | [`typeMoveVelocityDetails`](../types/LCalcMC_typeMoveVelocityDetails.md) | Calculated times, distances, velocities and accelerations between start and end of motion command |
+| `moveVelocityDetails` | [`typeMoveVelocityDetails`](../types/typeMoveVelocityDetails.md) | Calculated times, distances, velocities and accelerations between start and end of motion command |
 
 ### Return Value
 
@@ -32,4 +32,4 @@ This example shows a motion profile of a reversing `MC_MoveVelocity` command, wh
 | --------- | ---- | ----------- |
 | `MoveVelocityDetails` | `LCalcMC.Status` | Status of the function; WORD#16#0000: Calculation finished successfully <br/> WORD#16#8000 - WORD#16#FFFF: Error identification |
 
-The error codes are defined in [`LCalcMC.Status`](../constants/LCalcMC_ErrorIDs.md).
+The error codes are defined in [`LCalcMC.Status`](../constants/ErrorIDs.md).

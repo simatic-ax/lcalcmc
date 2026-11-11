@@ -29,4 +29,4 @@ The function `PositioningAccel` calculates the acceleration that is needed to mo
 | --------- | ---- | ----------- |
 | `PositioningAccel` | `LCalcMC.Status` | Status of the function; WORD#16#0000: Calculation finished successfully <br/> WORD#16#8000 - WORD#16#FFFF: Error identification |
 
-The error codes are defined in [`LCalcMC.Status`](../constants/LCalcMC_ErrorIDs.md).
+The error codes are defined in [`LCalcMC.Status`](../constants/ErrorIDs.md).
