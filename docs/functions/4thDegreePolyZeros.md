@@ -22,4 +22,4 @@ The function returns up to 4 complex roots, each with real and imaginary parts. 
 
 | Parameter | Type | Description |
 | --------- | ---- | ----------- |
-| `FourthDegreePolyZeros` | [`type4thDegreePolyZeros`](../types/internalSubTypes/LCalcMC_type4thDegreePolyZeros.md) | Structure containing the calculated polynomial zeros and status information |
+| `FourthDegreePolyZeros` | [`type4thDegreePolyZeros`](../types/internalSubTypes/type4thDegreePolyZeros.md) | Structure containing the calculated polynomial zeros and status information |

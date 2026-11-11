@@ -1,15 +1,11 @@
 # General information
 name: "@simatic-ax/lcalcmc"
-version: 3.0.0
+version: 0.0.0-placeholder
 type: lib
 
 description: Functions to get detailed information about motion profiles.
 keywords:
   - library
-# Targets to be compiled with 'apax build'
-targets:
-  - "1500"
-  - llvm
 
 #URL to the repository
 repository:
@@ -30,21 +26,22 @@ publicKeys:
 
 # Catalog:
 catalogs:
-  "@ax/simatic-ax": ^2510.0.0
+  "@ax-as/s7-catalog": ^2610.0.0
 
 # Dependencies
 devDependencies:
-  "@ax/sdk": ^2510.0.0
+  "@ax-as/s7-sdk": ^2610.0.2
 
-# Project variables
-variables:
-  APAX_BUILD_ARGS:
-    - "--debug" # Generate debug information for target "1500"
-files:
-  - 'README.md'
-  - 'LICENSE.md'
-  - 'docs'
-  - 'bin'
 dependencies:
-  "@ax/system-fastmath": ^10.2.7
+  "@ax-as/system-fastmath-lib": ^11.0.232
 
+scripts:
+  mk:release: apax make -p MakeConfigName:release
+  mk:debug: apax make -p MakeConfigName:debug
+
+files:
+  - docs
+  - bin/release
+  - '!bin/release/lastused*'
+  - LICENSE.md
+  - README.md
